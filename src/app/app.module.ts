@@ -10,6 +10,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { CreateemployeComponent } from './createemploye/createemploye.component';
+import { PricePipe } from './price.pipe';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,6 +18,7 @@ import { CreateemployeComponent } from './createemploye/createemploye.component'
     DashboardComponent,
     HomeComponent,
     CreateemployeComponent,
+    PricePipe,
     
   ],
   imports: [

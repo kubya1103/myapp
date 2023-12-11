@@ -1,0 +1,25 @@
+.top{
+    color: rgb(18, 248, 110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.p1{
+    height: 5px;
+    margin-left: 300px;
+   
+    color: rgb(225, 13, 20);
+}
+.p2{
+    margin-left: 200px;
+   
+    color: rgb(23, 2, 3);
+}
+.p3{
+    margin-left: 100px;
+    color: rgb(18, 248, 110);
+}

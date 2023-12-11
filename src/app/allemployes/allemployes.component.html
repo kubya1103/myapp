@@ -1,0 +1,46 @@
+<table>
+    
+    <thead>
+        <th>id</th>
+        <th>name</th>
+        <th>company</th>
+        <th>role</th>
+        <th>email</th>
+        <th>package</th>
+        <th>dob</th>
+        <th>address</th>
+        <th>hikes</th>
+        <th>workMode</th>
+        <th>travelBill</th>
+        <th>wifiBill</th>
+
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let employes of allemployesService ">
+            <td>{{employes.id}}</td>
+            <td>{{employes.name}}</td>
+            <td>{{employes.company}}</td>
+            <td>{{employes.role}}</td>
+            <td>{{employes.email}}</td>
+            <td>{{employes.package}}</td>
+            <td>{{employes.dob}}</td>
+            <td>{{employes.address.addresLane}}</td>
+            <td>{{employes.address.city}}</td>
+            <td>{{employes.address.state}}</td>
+            <td>{{employes.address.pincode}}</td>
+            <td>{{employes.hikes}}</td>
+            <td>{{employes.hikes.year}}</td>
+            <td>{{employes.hikes.percentage}}</td>
+            <td>{{employes.workMode}}</td>
+            <td>{{employes.travelBill}}</td>
+            <td>{{employes.wifiBill}}</td>
+        </tr>
+    </tbody>
+<button (click)="submit()">click</button>
+</table>
+
+
+
+
+

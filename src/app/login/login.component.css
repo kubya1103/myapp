@@ -1,0 +1,13 @@
+.parent{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    color: green;
+     background-color: aqua;
+    
+}
